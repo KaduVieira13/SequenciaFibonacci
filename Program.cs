@@ -33,10 +33,10 @@ namespace SequenciaFibonacci
 
                 for (int i = 0; i < sequencia; i++)
                 {
-                    Console.Write(soma + " ");
-                    soma = num1 + num2;
+                    Console.Write(num1 + " ");
                     num1 = num2;
                     num2 = soma;
+                    soma = num1 + num2;
                    
                 }
 
